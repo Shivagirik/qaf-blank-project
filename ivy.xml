@@ -22,5 +22,8 @@
 			<artifact name="aspectjtools" type="jar"></artifact>
 		</dependency>
 		<dependency org="ant-contrib" name="ant-contrib" rev="1.0b3"/>
+		
+		<!-- https://mvnrepository.com/artifact/com.jayway.restassured/rest-assured -->
+		<dependency org="com.jayway.restassured" name="rest-assured" rev="2.9.0"/>
 	</dependencies>
 </ivy-module>

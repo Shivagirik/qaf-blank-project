@@ -1,11 +1,21 @@
 
 
 SCENARIO: SampleTest
-META-DATA: {"description":"Sample Test Scenario","groups":["SMOKE"]}
+META-DATA: {"description":"Sample Test Scenario","groups":["SMOKE1"]}
 	
 	#Given get '/'
 	When test for
 	Then Print message 'QAF demo'
 	#Then verify link with partial text 'qaf' is present
+END
+
+SCENARIO: SampleTest
+META-DATA: {"description":"Sample Test Scenario","groups":["SMOKE"]}
+	When Test for rest test using jayway.restassured.response
+END
+
+SCENARIO: SampleTest
+META-DATA: {"description":"Sample Test Scenario","groups":["SMOKE1"]}
+	When Test for rest test using util object
 END
 

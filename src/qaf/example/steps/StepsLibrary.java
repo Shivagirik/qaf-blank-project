@@ -10,13 +10,16 @@ import org.testng.Reporter;
 import com.qmetry.qaf.automation.step.QAFTestStep;
 import com.qmetry.qaf.automation.util.*;
 
+import qaf.example.util.LogReporter;
 import qaf.example.util.PropertyLoader;
 import qaf.example.yih.CreateItemInYIH;
+import qaf.example.yih.CreateItemInYIH2;
 
 
 public class StepsLibrary {
 	
-	private static Logger log = Logger.getLogger(Logger.class.getName());
+
+	static LogReporter logUtils = new LogReporter("");
 	
 	/**
 	 * @param searchTerm
@@ -32,15 +35,15 @@ public class StepsLibrary {
 	public static void test(String message) {
 		
 		//Reporter.log("This is testmessage");
-		log.info(message);
+		logUtils.info(message);
 		com.qmetry.qaf.automation.util.Reporter.log(" This QAF demo msg display");
 	
 	}
 	
-	@QAFTestStep(description = "Test for")
+	@QAFTestStep(description = "Test for rest test using util object")
 	public static void getValueFromPropertFile() {
 		
-		log.info("Printing value for property file...");
+		logUtils.info("Printing value for property file...");
 		
 		//PropertyLoader pl= new PropertyLoader() ;
 		//log.info(pl.getPropertyValue("application","env.baseurl"));
@@ -51,6 +54,24 @@ public class StepsLibrary {
 		//com.qmetry.qaf.automation.util.Reporter.logWithScreenShot("asd");
 		
 		yih.createItemInYIH(itemList);
+	
+	}
+	
+	@QAFTestStep(description = "Test for rest test using jayway.restassured.response")
+	public static void testjayway() {
+		
+		logUtils.info("Printing value for property file...");
+		
+		
+		//PropertyLoader pl= new PropertyLoader() ;
+		//log.info(pl.getPropertyValue("application","env.baseurl"));
+		Object[] itemList= {"16042516271"};
+		CreateItemInYIH2 yih= new CreateItemInYIH2();
+		
+		//Reporter.log("16042516271");
+		//com.qmetry.qaf.automation.util.Reporter.logWithScreenShot("asd");
+		
+		yih.createItemInYIH2(itemList);
 	
 	}
 }
