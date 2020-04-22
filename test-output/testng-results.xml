@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When test for</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>[{"productLine":"380","itemID":"38010330174","gtin":"","uom":"EACH","shippable":"true","bopus":"true","lotNumber":"3801033","isSubstitutionAllowed":"N","purchaseType":"Fashion","itemProcessingTime":"10"}]</div><div  class="info"><span class="info-label">I </span>createItemYIH()::HTTP Body for Item create is:[{"productLine":"380","itemID":"38010330174","gtin":"","uom":"EACH","shippable":"true","bopus":"true","lotNumber":"3801033","isSubstitutionAllowed":"N","purchaseType":"Fashion","itemProcessingTime":"10"}]</div><div  class="info"><span class="info-label">I </span>createItemYIH()::Item is created successfully with KEY : </div><div  class="info"><span class="info-label">I </span>msg</div><div  class="info"><span class="info-label">I </span>null</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then Print message 'QAF demo'</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span> This QAF demo msg display</div></div></div>]]>
+    </line>
+  </reporter-output>
+  <suite name="New Test Regression" duration-ms="7278" started-at="2020-02-03T05:45:05Z" finished-at="2020-02-03T05:45:12Z">
+    <groups>
+      <group name="SMOKE">
+        <method signature="scenarios.suite1.bdd.SampleTest()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" name="SampleTest" class="com.qmetry.qaf.automation.step.client.Scenario"/>
+      </group> <!-- SMOKE -->
+    </groups>
+    <test name="BDD Test" duration-ms="7278" started-at="2020-02-03T05:45:05Z" finished-at="2020-02-03T05:45:12Z">
+      <class name="com.qmetry.qaf.automation.step.client.Scenario">
+        <test-method status="PASS" signature="setupSuit(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="SampleTest" name="setupSuit" is-config="true" duration-ms="21" started-at="2020-02-03T11:15:05Z" finished-at="2020-02-03T11:15:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3eb77ea8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuit -->
+        <test-method status="PASS" signature="setupTest(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="SampleTest" name="setupTest" is-config="true" duration-ms="2" started-at="2020-02-03T11:15:05Z" finished-at="2020-02-03T11:15:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3eb77ea8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="SampleTest" name="setup" is-config="true" duration-ms="1" started-at="2020-02-03T11:15:05Z" finished-at="2020-02-03T11:15:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3eb77ea8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="SampleTest" name="setupMethod" is-config="true" duration-ms="1" started-at="2020-02-03T11:15:05Z" finished-at="2020-02-03T11:15:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.Scenario.scenario()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@3eb77ea8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="SampleTest()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="SampleTest" name="SampleTest" duration-ms="7164" started-at="2020-02-03T11:15:05Z" description="Sample Test Scenario" finished-at="2020-02-03T11:15:12Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When test for</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>[{"productLine":"380","itemID":"38010330174","gtin":"","uom":"EACH","shippable":"true","bopus":"true","lotNumber":"3801033","isSubstitutionAllowed":"N","purchaseType":"Fashion","itemProcessingTime":"10"}]</div><div  class="info"><span class="info-label">I </span>createItemYIH()::HTTP Body for Item create is:[{"productLine":"380","itemID":"38010330174","gtin":"","uom":"EACH","shippable":"true","bopus":"true","lotNumber":"3801033","isSubstitutionAllowed":"N","purchaseType":"Fashion","itemProcessingTime":"10"}]</div><div  class="info"><span class="info-label">I </span>createItemYIH()::Item is created successfully with KEY : </div><div  class="info"><span class="info-label">I </span>msg</div><div  class="info"><span class="info-label">I </span>null</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then Print message 'QAF demo'</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span> This QAF demo msg display</div></div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SampleTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="SampleTest" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-02-03T11:15:12Z" finished-at="2020-02-03T11:15:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3eb77ea8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=SampleTest status=SUCCESS method=scenarios.suite1.bdd.SampleTest()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When test for</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>[{"productLine":"380","itemID":"38010330174","gtin":"","uom":"EACH","shippable":"true","bopus":"true","lotNumber":"3801033","isSubstitutionAllowed":"N","purchaseType":"Fashion","itemProcessingTime":"10"}]</div><div  class="info"><span class="info-label">I </span>createItemYIH()::HTTP Body for Item create is:[{"productLine":"380","itemID":"38010330174","gtin":"","uom":"EACH","shippable":"true","bopus":"true","lotNumber":"3801033","isSubstitutionAllowed":"N","purchaseType":"Fashion","itemProcessingTime":"10"}]</div><div  class="info"><span class="info-label">I </span>createItemYIH()::Item is created successfully with KEY : </div><div  class="info"><span class="info-label">I </span>msg</div><div  class="info"><span class="info-label">I </span>null</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then Print message 'QAF demo'</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span> This QAF demo msg display</div></div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="SampleTest" name="afterClass" is-config="true" duration-ms="1" started-at="2020-02-03T11:15:12Z" finished-at="2020-02-03T11:15:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3eb77ea8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="SampleTest" name="afterTest" is-config="true" duration-ms="1" started-at="2020-02-03T11:15:12Z" finished-at="2020-02-03T11:15:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3eb77ea8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuit(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="SampleTest" name="afterSuit" is-config="true" duration-ms="1" started-at="2020-02-03T11:15:12Z" finished-at="2020-02-03T11:15:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3eb77ea8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuit -->
+      </class> <!-- com.qmetry.qaf.automation.step.client.Scenario -->
+    </test> <!-- BDD Test -->
+  </suite> <!-- New Test Regression -->
+</testng-results>

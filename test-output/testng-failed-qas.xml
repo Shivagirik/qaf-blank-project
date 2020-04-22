@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="New Test Regression">
+  <test name="BDD Test">
+    <method-selectors>
+      <method-selector>
+        <script language="beanshell">
+          <![CDATA[testngMethod.getMethodName().equalsIgnoreCase("SampleTest")]]>
+        </script>
+      </method-selector>
+    </method-selectors>
+    <parameter name="include" value="{&#039;groups&#039;:[&#039;SMOKE&#039;]}"/>
+    <parameter name="scenario.file.loc" value="scenarios"/>
+    <classes>
+      <class name="com.qmetry.qaf.automation.step.client.text.BDDTestFactory"/>
+    </classes>
+  </test> <!-- BDD Test -->
+</suite> <!-- New Test Regression -->

@@ -23,9 +23,11 @@ For any inquiry or need additional information, please contact support-qaf@infos
 
 -->
  
-<suite name="QAF Demo" verbose="0">
+<suite name="New Test Regression" verbose="1">
 
 	<test name="BDD Test" enabled="true">
+	<parameter name="scenario.file.loc" value="scenarios"></parameter>
+		<parameter name="include" value="{'groups':['SMOKE']}" />
 		<classes>
 			<class name="com.qmetry.qaf.automation.step.client.text.BDDTestFactory" />
 		</classes>
@@ -37,7 +39,7 @@ For any inquiry or need additional information, please contact support-qaf@infos
 		</classes>
 	</test>
 
-	<test name="JAVA Test" enabled="true">
+	<test name="JAVA Test" enabled="false">
 		<packages>
 			<package name="qaf.example.tests" />
 		</packages>
