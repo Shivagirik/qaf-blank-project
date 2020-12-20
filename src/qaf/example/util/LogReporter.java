@@ -2,6 +2,7 @@ package qaf.example.util;
 
 import org.apache.log4j.Logger;
 
+import com.qmetry.qaf.automation.core.MessageTypes;
 import com.qmetry.qaf.automation.util.Reporter;
 
 public  class LogReporter {
@@ -23,19 +24,20 @@ public  class LogReporter {
 	
 	
 	
-	public void info(String message){
+	public void info(Object message){
 		Reporter.log("["+getClassName+"]-"+message);
 		log.info(message);
 	}
 	
-	public void debug(String message){
+	public void debug(Object message){
 		Reporter.log("["+getClassName+"]-"+message);
 		log.debug(message);
 	}
 	
-	public void error(String message){
+	public void error(Object message){
 		Reporter.log("["+getClassName+"]-"+message);
 		log.error(message);
+		
 	}
 		
 }

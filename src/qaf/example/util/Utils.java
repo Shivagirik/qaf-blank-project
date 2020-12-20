@@ -47,6 +47,7 @@ public class Utils {
 			return "";
 		}
 		
+		
 		String timeout = "30000";
 
 		String outputStr = "";
@@ -145,6 +146,9 @@ public class Utils {
 				: jsonStr.substring(0, jsonStr.indexOf("}"));
 		return jsonStr.trim();
 	}
+	
+	
+	
 	
 
 }
