@@ -1,4 +1,4 @@
-package com.jcp.automation.somaete.util;
+package qaf.example.util;
 
 import java.io.File;
 import java.io.FileInputStream;
